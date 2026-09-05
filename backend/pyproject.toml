@@ -1,0 +1,15 @@
+[project]
+name = "sih26011-3d-ulpin-backend"
+version = "1.0.0"
+description = "Backend for SIH26011 — 3D ULPIN Generation & Vertical Property Mapping System"
+requires-python = ">=3.11"
+
+# Runtime dependencies are pinned in requirements.txt (Section 2 versions).
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["app"]

@@ -1,0 +1,23 @@
+# SIH26011 backend — pinned per Section 2 (ML libs are MOCKS; no PyTorch/Open3D/PDAL/sam-hq)
+fastapi==0.114.0
+uvicorn[standard]==0.30.6
+sqlalchemy==2.0.34
+geoalchemy2==0.15.2
+alembic==1.13.2
+celery==5.4.0
+redis==5.0.8
+pillow==10.4.0
+pyproj==3.6.1
+shapely==2.0.6
+geopandas==1.0.1
+fiona==1.9.6
+psycopg2-binary==2.9.9
+minio==7.2.8
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.9
+pydantic==2.9.1
+pydantic-settings==2.5.2
+email-validator==2.2.0
+numpy==2.0.1
